@@ -1,0 +1,53 @@
+body {
+  font-style: font-family: 'Roboto', sans-serif;
+}
+/* NAV TOP*/
+.container_nav-top {
+  background-color: #102968;
+}
+.col-xs-6 .logo_start {
+  background-color: #102968;
+  height: 60px;
+}
+.col-xs-6 .logo_start span {
+  font-size: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: white;
+
+}
+.col-xs-6 .menu_hamburger a  {
+  font-size: 1.5em;
+  text-align: right;
+  text-transform: uppercase;
+  color: white;
+
+}
+/* CONTAINER FLUID*/
+
+.container-fluid .col-xs-12 {
+  position: relative;
+  height: 400px;
+  background-color: #01c1b1;
+}
+.jumbotrom {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* CONTAINER_BOX6*/
+
+.container_box6 {
+  position: relative;
+  background-color: lightblue;
+  height: 500px;
+}
+.box_top {
+  position: absolute;
+
+  display: inline-block;
+
+}
