@@ -45,9 +45,14 @@ body {
   background-color: lightblue;
   height: 500px;
 }
-.box_top {
-  position: absolute;
-
-  display: inline-block;
-
+.box_col-left {
+  margin-top: 30px;
+  background-color: white;
 }
+.box_col-center {
+  margin-top: 30px;
+  background-color: white;
+}
+.box_col-right {
+  margin-top: 30px;
+  background-color: white;
