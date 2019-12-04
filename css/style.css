@@ -128,11 +128,22 @@ body {
 .contact_list li {
   font-size: 1.3em;
   list-style: none;
+  color: #595757;
   padding-top: 25px;
   padding-bottom: 45px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #595757;
 }
-
+.button_send a {
+  font-size: 1.3em;
+  width: 80px;
+  background-color: #19bd9b;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 35px;
+  margin-bottom: 5px;
+}
 /* Footer */
 .footer_top {
   background-color: blue;
