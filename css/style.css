@@ -54,6 +54,21 @@ body {
   width: 60%;
   margin: 0 auto;
 }
+.h1_jumbo {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.span_star {
+  color: white;
+  font-size: 40px;
+  padding: 2% 47%;
+}
+.h2_jumbo {
+  color: white;
+  text-align: center;
+}
+
 
 /* Portfolio */
 .box_portfolio {
