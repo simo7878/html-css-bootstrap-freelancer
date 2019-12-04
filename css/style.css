@@ -80,9 +80,11 @@ body {
 
 }
 .box_portfolio img {
+  width: 100%;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
+
 .text-center {
   color: #2c3d50;
   text-align: center;
@@ -120,7 +122,15 @@ body {
   border-radius: 5px;
   border: 1px solid white;
   padding: 20px 30px;
+}
+/* Contact */
 
+.contact_list li {
+  font-size: 1.3em;
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid gray;
 }
 
 /* Footer */
