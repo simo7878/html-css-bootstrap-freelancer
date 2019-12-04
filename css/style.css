@@ -81,3 +81,7 @@ body {
   width: 50%;
   text-align: center;
 }
+.box-about a {
+  padding: 20px;
+  background-color: green;
+}
