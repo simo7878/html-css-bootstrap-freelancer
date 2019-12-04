@@ -42,17 +42,42 @@ body {
 
 .container_box6 {
   position: relative;
-  background-color: lightblue;
-  height: 500px;
+  /*background-color: lightblue;*/
+  /*height: 500px;*/
 }
 .box_col-left {
   margin-top: 30px;
-  background-color: white;
+  background-color: lightblue;
 }
 .box_col-center {
   margin-top: 30px;
-  background-color: white;
+  background-color: lightblue;
 }
 .box_col-right {
   margin-top: 30px;
-  background-color: white;
+  background-color: lightblue;
+}
+/* CONTAINER_ABOUT */
+.container_about {
+  position: relative;
+  height: 400px;
+  margin-top: 60px;
+  background-color:  #01c1b1;
+}
+.box_about {
+  position: absolute;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+}
+.box-about .about-h1 {
+  font-size: 3em;
+  /*margin: 10% 40%;*/
+  text-align: center;
+}
+.box-about .about-text p{
+  width: 50%;
+  text-align: center;
+}
