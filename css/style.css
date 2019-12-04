@@ -1,87 +1,87 @@
 body {
   font-style: font-family: 'Roboto', sans-serif;
 }
-/* NAV TOP*/
-.container_nav-top {
-  background-color: #102968;
+
+.padding_top_80 {
+  padding-top: 80px;
 }
-.col-xs-6 .logo_start {
-  background-color: #102968;
-  height: 60px;
+.padding_bottom_80 {
+  padding-bottom: 80px;
 }
-.col-xs-6 .logo_start span {
-  font-size: 1.5em;
-  text-align: left;
-  text-transform: uppercase;
-  vertical-align: middle;
+
+.wrapper_60 {
+  width: 60%;
+  margin: 0 auto;
+}
+.bg_green {
+  background-color: #1abc9c;
+}
+.btn_green {
+  background-color: #158F77;
   color: white;
-
-}
-.col-xs-6 .menu_hamburger a  {
-  font-size: 1.5em;
-  text-align: right;
   text-transform: uppercase;
+}
+.btn_green .glyphicon{
+  vertical-align: text-top;
+}
+
+/* header */
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #2c3d50;
   color: white;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+.header_top span {
+  font-size: 1.5em;
+}
+.visible-lg li {
+  display: inline;
+  text-decoration: none;
+  padding: 0 5px;
+}
+/* Jumbo */
+.jumbo {
+  margin-top: 80px;
+  padding: 80px 0;
+}
+.jumbo_text {
+  width: 60%;
+  margin: 0 auto;
+}
 
+/* Portfolio */
+.box_portfolio {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+  background-color: blue;
 }
-/* CONTAINER FLUID*/
 
-.container-fluid .col-xs-12 {
-  position: relative;
-  height: 400px;
-  background-color: #01c1b1;
+/* Footer */
+.footer_top {
+  background-color: blue;
 }
-.jumbotrom {
-  position: absolute;
-  background-color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.footer_bottom {
+  padding: 20px 0;
+  background-color: darkblue;
 }
-/* CONTAINER_BOX6*/
 
-.container_box6 {
-  position: relative;
-  /*background-color: lightblue;*/
-  /*height: 500px;*/
+
+@media screen and (max-width: 768px) {
+  .wrapper_xs_100 {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
-.box_col-left {
-  margin-top: 30px;
-  background-color: lightblue;
-}
-.box_col-center {
-  margin-top: 30px;
-  background-color: lightblue;
-}
-.box_col-right {
-  margin-top: 30px;
-  background-color: lightblue;
-}
-/* CONTAINER_ABOUT */
-.container_about {
-  position: relative;
-  height: 400px;
-  margin-top: 60px;
-  background-color:  #01c1b1;
-}
-.box_about {
-  position: absolute;
-  height: 100px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: yellow;
-}
-.box-about .about-h1 {
-  font-size: 3em;
-  /*margin: 10% 40%;*/
-  text-align: center;
-}
-.box-about .about-text p{
-  width: 50%;
-  text-align: center;
-}
-.box-about a {
-  padding: 20px;
-  background-color: green;
+@media screen and (min-width: 768px) {
+  .wrapper_md_60 {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
